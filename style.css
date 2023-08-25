@@ -1,0 +1,40 @@
+*{
+    text-align: center;
+}
+
+
+h1{
+    padding-top: 25px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+
+.tricks{
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 10px;
+    margin-top: 25px;
+}
