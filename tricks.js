@@ -21,4 +21,5 @@ export const FLIP = [
     '-',
     'kickflip',
     'heelflip',
+    'shove-it'
 ]
