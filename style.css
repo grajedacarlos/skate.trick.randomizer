@@ -1,14 +1,25 @@
 *{
     text-align: center;
+    background: rgb(51, 51, 51);
+    color: white;
 }
 
 
 h1{
     padding-top: 25px;
+    padding-bottom: 0;
+    border-bottom: 0;
+    margin-bottom: 0;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#author{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 p{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -28,6 +39,8 @@ section{
     margin: 2px;
     border: 1px solid black;
     border-radius: 10px;
+    background: white;
+    color: black;
     font-size: 25px;
     display: flex;
     justify-content: center;
@@ -37,4 +50,6 @@ section{
 button{
     padding: 10px;
     margin-top: 25px;
+    color: black;
+    background: white;
 }
