@@ -1,28 +1,30 @@
 *{
+    box-sizing: border-box;
     text-align: center;
     background: rgb(51, 51, 51);
     color: white;
+    font-family: Courier, serif;
+
 }
 
 
 h1{
-    padding-top: 25px;
+    padding-top: 30px;
     padding-bottom: 0;
     border-bottom: 0;
     margin-bottom: 0;
+    display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #author{
-    padding: 0;
+    padding-bottom: 25px;
     border: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 p{
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 25px;
 }
 
 
@@ -45,6 +47,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
 }
 
 button{
@@ -52,4 +55,22 @@ button{
     margin-top: 25px;
     color: black;
     background: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+@media only screen and (orientation: portrait){
+ section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+ div{
+    display: flex;
+    width: 50%;
+ }
+ .one, .three{
+    justify-content: end;
+ }
 }
